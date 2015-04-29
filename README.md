@@ -1,14 +1,17 @@
 # php_ext_dev_staff
 
-linux version " Linux keeg 3.2.0-4-amd64 #1 SMP Debian 3.2.65-1 x86_64 GNU/Linux"
-
-PHP source version "php-5.3.3"
-
-Using built-in specs.
-COLLECT_GCC=gcc
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper
-Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Debian 4.7.2-5' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
-Thread model: posix
-gcc version 4.7.2 (Debian 4.7.2-5) 
-
+操作系统:
+Linux linux.centos 2.6.32-279.5.2.el6.x86_64 #1 SMP Fri Aug 24 01:07:11 UTC 2012 x86_64 x86_64
+x86_64 GNU/Linux
+php源代码版本:
+php-5.4.9
+php源代码编译参数:
+'./configure' '--disable-all' '--prefix=/usr/local/php-dev' '--enable-embed' '--enable-debug'
+'--enable-maintainer-zts' '--enable-fpm' '--with-readline' '--enable-sockets' '--with-pear' '--
+enable-xml' '--enable-libxml' '--enable-tokenizer'
+php编译安装后的版本信息:
+PHP 5.4.9 (cli) (built: Dec 25 2012 15:12:52) (DEBUG)
+Copyright (c) 1997-2012 The PHP Group
+Zend Engine v2.4.0, Copyright (c) 1998-2012 Zend Technologies
+php extending and embedding by sams
+6
