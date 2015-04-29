@@ -15,7 +15,9 @@ enable-xml' '--enable-libxml' '--enable-tokenizer'
 
 php编译安装后的版本信息:
 PHP 5.4.9 (cli) (built: Dec 25 2012 15:12:52) (DEBUG)
+
 Copyright (c) 1997-2012 The PHP Grou
+
 Zend Engine v2.4.0, Copyright (c) 1998-2012 Zend Technologies
 php extending and embedding by sams
 6
