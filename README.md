@@ -12,6 +12,11 @@ php源代码编译参数:
 '--enable-maintainer-zts' '--enable-fpm' '--with-readline' '--enable-sockets' '--with-pear' '--
 enable-xml' '--enable-libxml' '--enable-tokenizer'
 
+实际的编译参数如下：
+apt-get install libxml2 libxml2-dev
+
+./configure --disable-all --prefix=/usr/local/php-dev --enable-embed --enable-debug --enable-sockets --with-pear --enable-xml --enable-libxml --enable-tokenizer --with-libxml-dir=/usr/include/libxml2/
+
 
 php编译安装后的版本信息:
 PHP 5.4.9 (cli) (built: Dec 25 2012 15:12:52) (DEBUG)
